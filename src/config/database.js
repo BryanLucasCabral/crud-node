@@ -1,11 +1,11 @@
-module.exports ={
+module.exports = { 
     dialect: 'postgres',
-    host:'localhost',
+    host: 'localhost',
     port: 5432,
-    username:'root',
-    password:'',
-    database:'crud-node',
-    define:{
+    database: 'crud-node',
+    username: 'postgres',
+    password: 'admin',
+    define: {
         timestamp: true,
         undescored: true,
     }
